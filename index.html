@@ -1,47 +1,108 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Ricky Panda Lai</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+  <title>About | Ricky Lai</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Ricky Lai</a>
-      <nav class="navbar-dark bg-dark">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" id="logo-nl" href="index.html">Ricky Lai</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right" id=nav>
+        <li class="active"><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">About Me</h3>
+          </div>
+
+          <div class="panel-body">
+            <img id="bio-image" style="width:30%;height:30%;" class="img-responsive pull-left" alt="Responsive image"
+              src="images/profile.jpg" alt="Ricky Lai">
+
+            <p>My main interest is mainly the hardware side of IT, currently I am taking a Coding Bootcamp at SMU to
+              learn full stack development.
+            </p>
+
+            <p>Hoping to continue my learning and becoming better at my craft whether I end up on the hardware or
+              developing side.
+            </p>
+
+            <p>Plan to pass this SMU Boot Camp to gain very useful knowledge and skills for my future in IT, after
+              obtaining this certificate I plan to
+              jump into another course to keep bettering myself.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel panel-primary" id="sidebar">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect</h3>
+          </div>
+
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/ricky-lai" target="_blank" class="thumbnail">
+                  <img src="images/github.png" alt="GitHub" class="img-responsive social"></a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/ricky-lai" target="_blank" class="thumbnail"><img
+                    src="images/linkedin.png" alt="LinkedIn" class="img-responsive social"></a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/11678604/ricky-lai" target="_blank" class="thumbnail"><img
+                    src="images/stackoverflow.png" alt="stackoverflow" class="img-responsive social"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="https://auto.ndtvimg.com/bike-images/colors/ducati/diavel/ducati-diavel-dark-stealth.webp?v=10" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    </section>
-
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+  <footer class="footer">
+    <div class="container" id="footer-text">
+      <p class="text-muted">Copyright &reg; 2019 Ricky Lai</p>
     </div>
   </footer>
+
 </body>
 
 </html>

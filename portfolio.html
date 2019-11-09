@@ -1,64 +1,141 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>About | Ricky Lai</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" id="logo-nl" href="index.html">Ricky Lai</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right" id=nav>
+        <li><a href="index.html">About</a></li>
+        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">Portfolio</h3>
+          </div>
+
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <a href="https://ricky-lai.github.io/Psychic-Game/" class="thumbnail work"><img src="images/psychic.jpg"
+                    alt="Psychic Game" class="psychic"></a>
+                <div class="caption">
+                  <h3>Psychic Game</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6">
+                <a href="https://ricky-lai.github.io/Crystal-Collector/" class="thumbnail work"><img
+                    src="images/crystal.jpg" alt="Crystal Collector" class="crystal"></a>
+                <div class="caption">
+                  <h3>Crystal Collector</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <a href="https://ricky-lai.github.io/Trivia-Game/" class="thumbnail work"><img
+                    src="images/breakingbad.jpg" alt="Trivia Game" class="trivia"></a>
+                <div class="caption">
+                  <h3>Trivia Game</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6">
+                <a href="https://ricky-lai.github.io/Train-Scheduler/" class="thumbnail work"><img
+                    src="images/train.jpg" alt="Train Scheduler" class="train"></a>
+                <div class="caption">
+                  <h3>Train Scheduler</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <a href="https://ricky-lai.github.io/R.O.S.T/" class="thumbnail work"><img src="images/rost.jpeg"
+                    alt="R.O.S.T" class="rost"></a>
+                <div class="caption">
+                  <h3>R.O.S.T</h3>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel panel-primary" id="sidebar">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect</h3>
+          </div>
+
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/ricky-lai" target="_blank" class="thumbnail">
+                  <img src="images/github.png" alt="GitHub" class="img-responsive social"></a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/ricky-lai" target="_blank" class="thumbnail"><img
+                    src="images/linkedin.png" alt="LinkedIn" class="img-responsive social"></a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/11678604/ricky-lai" target="_blank" class="thumbnail"><img
+                    src="images/stackoverflow.png" alt="stackoverflow" class="img-responsive social"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
+  <footer class="footer">
+    <div class="container" id="footer-text">
+      <p class="text-muted">Copyright &reg; 2019 Ricky Lai</p>
     </div>
   </footer>
+
 </body>
 
 </html>
